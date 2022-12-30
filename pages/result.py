@@ -1,9 +1,12 @@
 """
 POM for DuckDuckGo result page
 """
-
+from selenium.webdriver.common.by import By
 
 class DuckDuckGoResultPage:
+
+    RESULT_LINKS = (By.CSS_SELECTOR, 'a.result__a')
+    SEARCH_INPUT = (By.ID, 'search_form_input')
 
     def __init__(self, browser):
         self.browser = browser
