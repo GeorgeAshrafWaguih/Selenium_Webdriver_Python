@@ -2,3 +2,4 @@
 - pytest fixtures
 - POM
 - Multiple Browsers
+- Handling race conditions
