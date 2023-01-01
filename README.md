@@ -3,3 +3,4 @@
 - POM
 - Multiple Browsers
 - Handling race conditions
+- Running Tests in parallel (xdist)
